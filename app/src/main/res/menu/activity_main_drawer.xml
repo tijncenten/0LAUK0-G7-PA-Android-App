@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <item android:title="Load">
+        <menu>
+            <item
+            android:id="@+id/nav_load_small"
+            android:icon="@drawable/ic_chat"
+            android:title="Small chat (linear)" />
+            <item
+                android:id="@+id/nav_load_small2"
+                android:icon="@drawable/ic_chat"
+                android:title="Small chat (huis)" />
+            <item
+                android:id="@+id/nav_load_large"
+                android:icon="@drawable/ic_chat"
+                android:title="Large chat (es)" />
+            <item
+                android:id="@+id/nav_load_large2"
+                android:icon="@drawable/ic_chat"
+                android:title="Large chat (engineer)" />
+            <item
+                android:id="@+id/nav_load_clear"
+                android:icon="@drawable/ic_chat_empty"
+                android:title="Clear chat" />
+        </menu>
+    </item>
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_setting_hide_spam"
+                android:icon="@drawable/ic_cancel"
+                android:title="Hide spam"
+                app:actionLayout="@layout/layout_switch"
+                />
+            <item
+                android:id="@+id/nav_setting_process_whatsapp"
+                android:icon="@drawable/ic_assistant"
+                android:title="Process Whatsapp"
+                app:actionLayout="@layout/layout_switch"
+                />
+        </menu>
+    </item>
+    <!---->
+    <!--<group android:checkableBehavior="single">-->
+        <!--<item-->
+            <!--android:id="@+id/nav_camera"-->
+            <!--android:icon="@drawable/ic_menu_camera"-->
+            <!--android:title="Import" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_gallery"-->
+            <!--android:icon="@drawable/ic_menu_gallery"-->
+            <!--android:title="Gallery" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_slideshow"-->
+            <!--android:icon="@drawable/ic_menu_slideshow"-->
+            <!--android:title="Slideshow" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_manage"-->
+            <!--android:icon="@drawable/ic_menu_manage"-->
+            <!--android:title="Tools" />-->
+    <!--</group>-->
+
+    <!--<item android:title="Communicate">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/nav_share"-->
+                <!--android:icon="@drawable/ic_menu_share"-->
+                <!--android:title="Share" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_send"-->
+                <!--android:icon="@drawable/ic_menu_send"-->
+                <!--android:title="Send" />-->
+        <!--</menu>-->
+    <!--</item>-->
+
+</menu>

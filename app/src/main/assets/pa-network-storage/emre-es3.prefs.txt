@@ -1,0 +1,7 @@
+questionCategorizationPrefs:AUTO
+answerCategorizationPrefs:AUTO
+announcementCategorizationPrefs:AUTO
+confirmationCategorizationPrefs:AUTO
+threadDepthFactor:0.75
+evaluationThreshold:0.5
+evaluationUncertainty:0.0
